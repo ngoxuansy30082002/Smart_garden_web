@@ -5,17 +5,18 @@
   box-sizing: border-box;
 }
 .sidebar {
-  height: 100%;
-  width: 30%;
+  height: auto;
+  width: 100%;
   position: fixed;
-  z-index: 1;
+  z-index: 100;
   top: 0;
   left: 0;
-  background-color: rgba(130, 216, 50, 0.616);
+  background-color: rgb(151, 226, 80);
   /* add box shadow */
   box-shadow: 0 0 10px rgb(86, 145, 31);
   overflow-x: hidden;
   text-align: center;
+  padding-bottom: 2%;
 }
 .sidebar .logo-details {
   width: 90%;
@@ -44,10 +45,8 @@
 }
 .button-auto p {
   font-size: 40px;
-  color: rgb(126, 145, 31);
+  color: rgb(94, 110, 9);
   font-weight: bold;
-  margin-top: 5%;
-  margin-bottom: 5%;
 }
 .logo-pioneer img {
   max-width: 90%;
@@ -82,6 +81,7 @@ p {
 .main {
   height: 100%;
   width: 100%;
+  margin-top: 57%;
   /* margin-left: 30%; */
   /* position: fixed;
   z-index: 1;
